@@ -1,0 +1,43 @@
+{
+  "name": "koishi-plugin-resonance-market",
+  "description": "雷索纳斯市场查询",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "pub": "pnpm publish --registry https://registry.npmjs.org"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "resonance",
+    "雷索纳斯"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent-the-gamer/koishi-plugin-resonance-market.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vincent-the-gamer/koishi-plugin-resonance-market/issues"
+  },
+  "homepage": "https://github.com/Vincent-the-gamer/koishi-plugin-resonance-market",
+  "koishi": {
+    "description": {
+      "en": "Search Resonance market",
+      "zh": "雷索纳斯市场查询"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10"
+  }
+}
